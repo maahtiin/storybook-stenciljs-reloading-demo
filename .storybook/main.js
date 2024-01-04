@@ -25,7 +25,9 @@ const config = {
           host: 'localhost',
           port: 3000,
           proxy: 'http://localhost:6006',
-          injectCss: true
+          injectCss: true,
+          reloadDelay: 2000,
+          reloadThrottle: 2000
         }
       )],
     }

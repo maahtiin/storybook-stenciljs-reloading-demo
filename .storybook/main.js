@@ -26,7 +26,7 @@ const config = {
           port: 3000,
           proxy: 'http://localhost:6006',
           injectCss: true,
-          reloadDelay: 2000,
+          reloadDelay: 1000,
           reloadThrottle: 2000,
           files: ['../dist/**/*'],
           notify: false

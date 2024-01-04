@@ -27,7 +27,9 @@ const config = {
           proxy: 'http://localhost:6006',
           injectCss: true,
           reloadDelay: 2000,
-          reloadThrottle: 2000
+          reloadThrottle: 2000,
+          files: ['../dist/**/*'],
+          notify: false
         }
       )],
     }
